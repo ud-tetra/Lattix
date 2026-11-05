@@ -1,0 +1,53 @@
+{
+  "scope": "R&D framework tooling only; synthetic test fixtures are not Lattix product benchmarks",
+  "executed_at": "2026-11-05T03:08:24.098876+00:00",
+  "source_revision": "5ad002f67ee06b611c1298bfa7bf6a38b7eb4bb1",
+  "source_dirty_before_capture": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "git": "git version 2.51.1",
+  "platform": {
+    "system": "Linux",
+    "machine": "x86_64"
+  },
+  "checks": [
+    {
+      "name": "integrity",
+      "command": [
+        "python3",
+        "scripts/validate.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "name": "regression",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "name": "history",
+      "command": [
+        "python3",
+        "scripts/check_history.py",
+        "--base",
+        "966b49e460c11a320ffe5d2408ffa6fa36f6ed7a"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    }
+  ],
+  "test_count": 34,
+  "gpu_execution": "NOT_RUN",
+  "engine_adapters": "NOT_RUN",
+  "independent_review": "NOT_PERFORMED",
+  "server_protections": "ADMIN_ACTION_REQUIRED"
+}

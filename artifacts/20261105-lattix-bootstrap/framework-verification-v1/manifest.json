@@ -1,0 +1,111 @@
+{
+  "record_type": "run",
+  "schema_version": 2,
+  "session_id": "20261105-lattix-bootstrap",
+  "run_id": "framework-verification-v1",
+  "created_at": "2026-11-05T03:09:13.778893+00:00",
+  "evidence": "NUMERICAL",
+  "summary": "34 synthetic governance, capture and concurrency tests; integrity and history checks; no product performance evidence",
+  "command": "python3 scripts/validate.py && python3 -m unittest discover -s tests -v && python3 scripts/check_history.py --base 966b49e460c11a320ffe5d2408ffa6fa36f6ed7a",
+  "command_execution": "RECORDED_NOT_EXECUTED_BY_CAPTURE",
+  "source": {
+    "revision": "5ad002f67ee06b611c1298bfa7bf6a38b7eb4bb1",
+    "dirty": false
+  },
+  "inputs": [
+    {
+      "input_id": "input-001",
+      "name": "lattix.py",
+      "path": "inputs/001-lattix.py",
+      "source_location": "repository",
+      "source_path": "scripts/lattix.py",
+      "sha256": "794c5c1933c919b7f1f62ea3679e1850a8f2295415fadfd74ba6f650dd5d2a24",
+      "size_bytes": 16784
+    },
+    {
+      "input_id": "input-002",
+      "name": "validate.py",
+      "path": "inputs/002-validate.py",
+      "source_location": "repository",
+      "source_path": "scripts/validate.py",
+      "sha256": "a69d5ffdf6a4101f63f5f174e97a0f775e7b5a84a2acbb5c2ce65420055cf986",
+      "size_bytes": 10188
+    },
+    {
+      "input_id": "input-003",
+      "name": "governance.py",
+      "path": "inputs/003-governance.py",
+      "source_location": "repository",
+      "source_path": "scripts/governance.py",
+      "sha256": "9f0fdc0708c1d006816980f045a22dd2d7bad9f11d5cbc121deb315bd9368ce7",
+      "size_bytes": 8976
+    },
+    {
+      "input_id": "input-004",
+      "name": "check_history.py",
+      "path": "inputs/004-check_history.py",
+      "source_location": "repository",
+      "source_path": "scripts/check_history.py",
+      "sha256": "06a629e7666eb12bee405d2c1bd4803119d4d23b73803fa47aba91587e3a5aa9",
+      "size_bytes": 2530
+    },
+    {
+      "input_id": "input-005",
+      "name": "test_lattix.py",
+      "path": "inputs/005-test_lattix.py",
+      "source_location": "repository",
+      "source_path": "tests/test_lattix.py",
+      "sha256": "c4fa799ae4ece12943cb7bb24b8959b418fa42e370dc872afb987d0574db5899",
+      "size_bytes": 10603
+    },
+    {
+      "input_id": "input-006",
+      "name": "test_governance.py",
+      "path": "inputs/006-test_governance.py",
+      "source_location": "repository",
+      "source_path": "tests/test_governance.py",
+      "sha256": "1a4a2da649d1fe16e3b0c62397ea577ca73b34544258135f62ebecf0f0466dc8",
+      "size_bytes": 7463
+    },
+    {
+      "input_id": "input-007",
+      "name": "test_history.py",
+      "path": "inputs/007-test_history.py",
+      "source_location": "repository",
+      "source_path": "tests/test_history.py",
+      "sha256": "eb2f80e190d4731b0df80a8bac3fd7deff80571d390ac3ef78dffc3e13c0adb0",
+      "size_bytes": 1670
+    },
+    {
+      "input_id": "input-008",
+      "name": "contributors.json",
+      "path": "inputs/008-contributors.json",
+      "source_location": "repository",
+      "source_path": "config/contributors.json",
+      "sha256": "753f10b17986cda6f2ac58cbe3c9dedb20aee5fb9735ba70b9febfbf798e1b83",
+      "size_bytes": 309
+    }
+  ],
+  "files": [
+    {
+      "path": "files/verification.json",
+      "sha256": "58767bbfe2747a9d5b81ae6ec713705d1ac7160929b1dd5636171333d5126a4c",
+      "size_bytes": 1247
+    },
+    {
+      "path": "files/integrity.log",
+      "sha256": "d127bf82e07733482660fe4ddf8e101e9a51cebfc5d3bf7ade98b45d8de64e88",
+      "size_bytes": 71
+    },
+    {
+      "path": "files/regression.log",
+      "sha256": "f80ebde994031922bf4d08860dd9f04df66117a2c45a72a3e622c342d825e876",
+      "size_bytes": 4292
+    },
+    {
+      "path": "files/history.log",
+      "sha256": "33e11fc5d707b1d3c0ebde1b2fe740673e879ec006495155155135e97d76321d",
+      "size_bytes": 75
+    }
+  ]
+}
