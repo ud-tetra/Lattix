@@ -23,3 +23,7 @@ Captured artifacts/20261105-lattix-bootstrap/framework-verification-v1 (NUMERICA
 Checkpoint (handoff): 34 tests, record integrity, and append-only history checks passed on published implementation commit 5ad002f67ee06b611c1298bfa7bf6a38b7eb4bb1. Product hardware and engine tests NOT_RUN.
 
 Next: Integrate the checked PR, release the held claim, then reconcile historical Lattix source packages.
+
+## Integrated and released — 2026-11-05T03:11:37.379Z
+
+PR #2 merged at f8b7cdca8f2b449d4298f3bc2b1206f1aedf822f after CI run https://github.com/ud-tetra/Lattix/actions/runs/41959886267 passed on d60b15e9040c3c35a8416a4f66a72ce7b9ca6dc8. Released the exact held claim using audit marker db4ef0014e5d9133e529006a8c6751ea7d503f32; live ref verified. No substantive work is included in this closure-only follow-up. Next: source-reconciliation and administrator verification.

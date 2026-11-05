@@ -14,12 +14,14 @@
     "model": "unknown",
     "identity_verification": "DECLARED_NOT_AUTHENTICATED"
   },
-  "status": "handoff",
+  "status": "complete",
   "claims": {
     "bootstrap-governance": {
       "ref": "refs/heads/claims/bootstrap-governance",
       "sha": "529715bd621bcb4d3f4fb9a01f2bb8522d9d28c8",
-      "status": "held"
+      "status": "released",
+      "release_marker_sha": "db4ef0014e5d9133e529006a8c6751ea7d503f32",
+      "released_at": "2026-11-05T03:11:01.358Z"
     }
   },
   "checks": [
@@ -58,8 +60,8 @@
       "result": "PASS"
     }
   ],
-  "finding": "34 tests, record integrity, and append-only history checks passed on published implementation commit 5ad002f67ee06b611c1298bfa7bf6a38b7eb4bb1. Product hardware and engine tests NOT_RUN.",
-  "next_action": "Integrate the checked PR, release the held claim, then reconcile historical Lattix source packages.",
+  "finding": "Framework integrated into main; 34 tests and integrity/history CI passed; task claim released with retained audit chain.",
+  "next_action": "Reconcile historical Lattix source packages; administrator verifies server protections and collaborator access.",
   "checkpoint_at": "2026-11-05T03:09:13.859381+00:00",
   "checkpoint_source": {
     "revision": "5ad002f67ee06b611c1298bfa7bf6a38b7eb4bb1",
@@ -67,5 +69,11 @@
   },
   "artifact_manifests": [
     "artifacts/20261105-lattix-bootstrap/framework-verification-v1/manifest.json"
-  ]
+  ],
+  "integration": {
+    "pr": 2,
+    "commit": "f8b7cdca8f2b449d4298f3bc2b1206f1aedf822f",
+    "verified_head": "d60b15e9040c3c35a8416a4f66a72ce7b9ca6dc8",
+    "ci_run": 41959886267
+  }
 }
