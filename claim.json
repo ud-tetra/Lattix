@@ -32,5 +32,9 @@
     ".gitignore",
     ".gitattributes"
   ],
-  "status": "held"
+  "status": "released",
+  "released_at": "2026-11-05T03:11:01.358Z",
+  "released_from_sha": "529715bd621bcb4d3f4fb9a01f2bb8522d9d28c8",
+  "integration_commit": "f8b7cdca8f2b449d4298f3bc2b1206f1aedf822f",
+  "integration_pr": "https://github.com/ud-tetra/Lattix/pull/2"
 }
