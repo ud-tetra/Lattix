@@ -1,0 +1,16 @@
+{
+  "record_type": "task",
+  "schema_version": 1,
+  "task_id": "source-reconciliation",
+  "goal": "Import and reconcile current Lattix protocols and implementation packages",
+  "owned_paths": [
+    "sources/imports/lattix-baseline/",
+    "reviews/source-reconciliation/"
+  ],
+  "dependencies": [
+    "bootstrap-governance"
+  ],
+  "status": "planned",
+  "lane": "Lab",
+  "acceptance_rule": "Pin original packages, versions and hashes; map historical C12 and B1\u2013B5 without rewriting them."
+}

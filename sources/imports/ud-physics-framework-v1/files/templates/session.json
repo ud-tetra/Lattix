@@ -1,0 +1,22 @@
+{
+  "record_type": "session",
+  "schema_version": 1,
+  "session_id": "SESSION",
+  "runtime": "unknown",
+  "task": "TASK",
+  "goal": "REPLACE",
+  "created_at": "REPLACE_WITH_ISO8601",
+  "base_revision": "REPLACE_WITH_VERIFIED_COMMIT",
+  "source_dirty_at_boot": true,
+  "status": "active",
+  "claims": {},
+  "checks": [],
+  "finding": "",
+  "next_action": "",
+  "mathematical_profile": {
+    "coefficient_domain": "REPLACE",
+    "exactness_or_precision_plan": "REPLACE",
+    "applicable_methods": [],
+    "clock_metric_units_conventions": "REPLACE_OR_NA"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "record_type": "preregistration",
+  "schema_version": 1,
+  "protocol_id": "PROTOCOL",
+  "lane": "C12A",
+  "status": "draft",
+  "workload": "REPLACE",
+  "acceptance_rule": "REPLACE",
+  "exclusions": "REPLACE",
+  "timing_scope": "REPLACE",
+  "repetitions": "REPLACE",
+  "source_refs": [],
+  "amends": null,
+  "target_exposure": "NOT_RECORDED"
+}

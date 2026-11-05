@@ -1,0 +1,17 @@
+{
+  "record_type": "task",
+  "schema_version": 1,
+  "task_id": "c12c-adapter-contract",
+  "goal": "Implement measured engine adapter receipts",
+  "owned_paths": [
+    "experiments/c12c/",
+    "benchmarks/preregistrations/c12c/",
+    "benchmarks/receipts/c12c/"
+  ],
+  "dependencies": [
+    "source-reconciliation"
+  ],
+  "status": "planned",
+  "lane": "C12C",
+  "acceptance_rule": "Define ownership/lifetime and measure transfers, synchronization, adapter overhead and effort; zero-copy remains unclaimed until measured."
+}

@@ -1,0 +1,28 @@
+{
+  "record_type": "session",
+  "schema_version": 1,
+  "session_id": "20261105-lattix-bootstrap",
+  "runtime": "Codex; GitHub connector write and local Python/Git compute",
+  "task": "bootstrap-governance",
+  "goal": "Adapt UD-Physics governance architecture to Lattix R&D",
+  "created_at": "2026-11-05T03:06:42.843424+00:00",
+  "base_revision": "966b49e460c11a320ffe5d2408ffa6fa36f6ed7a",
+  "source_dirty_at_boot": true,
+  "profile": {
+    "actor": "ud-tetra",
+    "role": "integrator",
+    "model": "unknown",
+    "identity_verification": "DECLARED_NOT_AUTHENTICATED"
+  },
+  "status": "active",
+  "claims": {
+    "bootstrap-governance": {
+      "ref": "refs/heads/claims/bootstrap-governance",
+      "sha": "529715bd621bcb4d3f4fb9a01f2bb8522d9d28c8",
+      "status": "held"
+    }
+  },
+  "checks": [],
+  "finding": "Framework implemented; final source revision and artifact verification pending.",
+  "next_action": "Publish checked work branch and capture final verification."
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+config/runtime.local.json
+.env
+.env.*
+.DS_Store

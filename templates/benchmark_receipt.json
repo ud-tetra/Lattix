@@ -1,0 +1,29 @@
+{
+  "record_type": "benchmark_receipt",
+  "schema_version": 1,
+  "receipt_id": "RECEIPT",
+  "session_id": "SESSION",
+  "lane": "C12A",
+  "status": "NOT_RUN",
+  "execution": {
+    "mode": "NOT_RUN",
+    "source_revision": null,
+    "device": null,
+    "software": null,
+    "timing_method": null,
+    "synchronization": null
+  },
+  "protocol": {
+    "path": null,
+    "sha256": null,
+    "preregistration_revision": null
+  },
+  "artifact_manifest": null,
+  "determinism_scope": "REPLACE",
+  "metrics": [],
+  "quality_gates": [],
+  "transfer": null,
+  "limitations": [
+    "Not executed."
+  ]
+}

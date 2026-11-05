@@ -1,0 +1,28 @@
+name: Lattix R&D task
+description: Scope implementation, conformance, research or integration work.
+title: "[R&D] "
+body:
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Program scope
+      options: [Spatial / C12A, Particles / C12B, Engine integration / C12C, Lab, Governance]
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Question and acceptance rule
+    validations:
+      required: true
+  - type: textarea
+    id: ownership
+    attributes:
+      label: Task ID, owned paths and dependencies
+      description: An issue assignment does not acquire a live task claim.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source versions, target exposure, proposed checks and evidence boundary

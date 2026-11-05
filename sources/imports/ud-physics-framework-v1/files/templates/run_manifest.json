@@ -1,0 +1,23 @@
+{
+  "record_type": "run",
+  "schema_version": 2,
+  "session_id": "SESSION",
+  "run_id": "RUN",
+  "created_at": "REPLACE_WITH_ISO8601",
+  "evidence": "OPEN",
+  "summary": "REPLACE",
+  "command": "REPLACE_WITH_ACTUAL_EXECUTED_COMMAND",
+  "command_execution": "RECORDED_NOT_EXECUTED_BY_CAPTURE",
+  "source": {
+    "revision": "REPLACE_WITH_VERIFIED_COMMIT",
+    "dirty": true
+  },
+  "inputs": [],
+  "files": [
+    {
+      "path": "files/REPLACE",
+      "sha256": "REPLACE_WITH_SHA256",
+      "size_bytes": 0
+    }
+  ]
+}

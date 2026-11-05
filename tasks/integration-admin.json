@@ -1,0 +1,17 @@
+{
+  "record_type": "task",
+  "schema_version": 1,
+  "task_id": "integration-admin",
+  "goal": "Configure and verify server protections and contributor access",
+  "owned_paths": [
+    "docs/ADMIN_SETUP.md",
+    "config/contributors.json",
+    ".github/CODEOWNERS"
+  ],
+  "dependencies": [
+    "bootstrap-governance"
+  ],
+  "status": "planned",
+  "lane": "Governance",
+  "acceptance_rule": "Administrator verifies branch protection/checks, access and review policy; record exact settings without secrets."
+}
