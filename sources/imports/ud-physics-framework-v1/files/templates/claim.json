@@ -1,0 +1,13 @@
+{
+  "record_type": "claim",
+  "schema_version": 1,
+  "task": "TASK",
+  "session": "SESSION",
+  "created_at": "REPLACE_WITH_ISO8601",
+  "base_revision": "REPLACE_WITH_VERIFIED_COMMIT",
+  "owned_paths": [
+    "REPLACE_WITH_TASK_PATHS"
+  ],
+  "protocol_version": 2,
+  "status": "held"
+}

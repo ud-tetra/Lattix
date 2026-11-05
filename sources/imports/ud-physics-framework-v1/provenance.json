@@ -1,0 +1,205 @@
+{
+  "record_type": "source_import",
+  "schema_version": 1,
+  "retrieved_at": "2026-11-05",
+  "sources": [
+    {
+      "path": "files/README.md",
+      "sha256": "d443a26196f0e37b744de1c0456e1f1f5d218a9f93ac33725b9f73af3274530b",
+      "size_bytes": 3290,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "README.md",
+      "git_blob_sha": "918f4012b8c55c57c229fc83c6d47468aaafd201",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/README.md",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/instructions/UD_DISCOVERY_v1.2.md",
+      "sha256": "cc23f4636cbb1d066d1b93ca3147543ced2bd18df68c504a007ebdcbef53a3b4",
+      "size_bytes": 10924,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "instructions/UD_DISCOVERY_v1.2.md",
+      "git_blob_sha": "b39dd2619b382aa786793b934e7d93a6fa258163",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/instructions/UD_DISCOVERY_v1.2.md",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/docs/CONCURRENCY.md",
+      "sha256": "c63f8e1747bb13c08616332050588f48e0ff440da3e0979fe251172b4b469be3",
+      "size_bytes": 4628,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "docs/CONCURRENCY.md",
+      "git_blob_sha": "44e48b4773220e2027a32c68bc761bcbc75c7069",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/docs/CONCURRENCY.md",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/docs/ARTIFACTS.md",
+      "sha256": "eec17ff364c3d17aff616d4cb297d740c9cad2f3193dd530b4b2f517b9d4e4f0",
+      "size_bytes": 4745,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "docs/ARTIFACTS.md",
+      "git_blob_sha": "82da09b2c2df66e6a8ddbf16bd25db02d916477f",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/docs/ARTIFACTS.md",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/docs/UD_MATHEMATICAL_METHOD_v1.0.md",
+      "sha256": "911585ef0707dba0720f5bd8465cf18c801b0b8aa5adb75b6be9504c392282a6",
+      "size_bytes": 15719,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "docs/UD_MATHEMATICAL_METHOD_v1.0.md",
+      "git_blob_sha": "1dad94e9af9e7d80524c0fec19e786af74d21c8a",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/docs/UD_MATHEMATICAL_METHOD_v1.0.md",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/docs/ADMIN_SETUP.md",
+      "sha256": "af42f0190beda943827a3189626a77eebbf5906601ba8e89c0181c0ccdb35c87",
+      "size_bytes": 1553,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "docs/ADMIN_SETUP.md",
+      "git_blob_sha": "887cef897fc049903fb663cdf21062ca3ac3bf92",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/docs/ADMIN_SETUP.md",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/docs/WORKFLOW.md",
+      "sha256": "ac1c6505d5972a80550139f53389a6816f272d9811f2f37bdbc3feaf817b8b4c",
+      "size_bytes": 1799,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "docs/WORKFLOW.md",
+      "git_blob_sha": "fc90c99b93e92971183a7f2c605b098a90671179",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/docs/WORKFLOW.md",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/scripts/discovery.py",
+      "sha256": "41ecb5972ee3bf9b600cba59c360eedd30433a5d13a61a03219d04c9e7838f8a",
+      "size_bytes": 16400,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "scripts/discovery.py",
+      "git_blob_sha": "c4d834db2687e00f23f3aa4ca457c2f250a84257",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/scripts/discovery.py",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/scripts/validate.py",
+      "sha256": "ffe545616cd4bed64eb4ca4b8228e02544c16a3132e405c8aaebbc01bd7bb66b",
+      "size_bytes": 10104,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "scripts/validate.py",
+      "git_blob_sha": "9cad6040352ef8ea4b630e41ede638ac2c1927ae",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/scripts/validate.py",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/tests/test_discovery.py",
+      "sha256": "ca1e5325094f86f005d43bab5c3f34b965de1e97d2926b39ac36a9617e1e040c",
+      "size_bytes": 10606,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "tests/test_discovery.py",
+      "git_blob_sha": "b2bc013f999de946cf9ab88cfb1d6c9f13c45dac",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/tests/test_discovery.py",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/.github/workflows/discovery-integrity.yml",
+      "sha256": "1fc3016bf4c9a65c908f1bdb85171c20b1f9b7087a6d24e79518d6e9e7a80d19",
+      "size_bytes": 703,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": ".github/workflows/discovery-integrity.yml",
+      "git_blob_sha": "946d685a7f925bde497a4454aee1a37f81cb23ca",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/.github/workflows/discovery-integrity.yml",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/templates/session.json",
+      "sha256": "3df7921e3b8b4a4078619f053648c875058d311d5a66394926bc56eefc755063",
+      "size_bytes": 559,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "templates/session.json",
+      "git_blob_sha": "c878401512af476b4227a34e2be85181fea4a210",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/templates/session.json",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/templates/claim.json",
+      "sha256": "1e5fe5b6074663c8502d3a9aff69b3ea28608996426c50e54748537601ffe798",
+      "size_bytes": 284,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "templates/claim.json",
+      "git_blob_sha": "5a0ecb5069577cc704ded347436caab662aa1634",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/templates/claim.json",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/templates/run_manifest.json",
+      "sha256": "a02aa48ca9d38bbd7bc7b3e73d542b4a1b7556f07ed6858df1a6015b514ff1b8",
+      "size_bytes": 517,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "templates/run_manifest.json",
+      "git_blob_sha": "2df403fcde654c57bbc9c76494a9fb25d9604f10",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/templates/run_manifest.json",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/templates/candidate.json",
+      "sha256": "c8057ff60bf3539b091884cf05218f86cda9f5e7e7371896f1d2b4d752732ed8",
+      "size_bytes": 436,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "templates/candidate.json",
+      "git_blob_sha": "73ecd25b9d1eff57b1d1f48e117da13852df2891",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/templates/candidate.json",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/templates/mathematical_receipt.json",
+      "sha256": "547e42caadd385868acbc727284521c18a9226dc82f1a709f4cff18e4f8a175c",
+      "size_bytes": 2634,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "templates/mathematical_receipt.json",
+      "git_blob_sha": "050dc84f6346dc62627acef3ad802774a1656726",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/templates/mathematical_receipt.json",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/BOOTLOADER.md",
+      "sha256": "ebe0ab3700b59966e26d5ea33bfc4231107face57e8084f6732e7e8b4a4c62b2",
+      "size_bytes": 4681,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "BOOTLOADER.md",
+      "git_blob_sha": "a8d09889507e733ab26bba9393e1e05676fbb144",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/BOOTLOADER.md",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    },
+    {
+      "path": "files/AGENTS.md",
+      "sha256": "9fcfebf6479c40c9d92580dac9f0778ca88bbd8034e3d40c0afb529b2c1ec41b",
+      "size_bytes": 2596,
+      "source_repository": "ud-tetra/UD-Physics",
+      "source_revision": "e400dfb715262a44b3bbb2e929c7b438028af67e",
+      "source_path": "AGENTS.md",
+      "git_blob_sha": "152a74618af7a36726b933ba7ddea691110f495f",
+      "source_url": "https://github.com/ud-tetra/UD-Physics/blob/e400dfb715262a44b3bbb2e929c7b438028af67e/AGENTS.md",
+      "status": "ARCHITECTURE_REFERENCE_NOT_PRODUCT_EVIDENCE"
+    }
+  ]
+}

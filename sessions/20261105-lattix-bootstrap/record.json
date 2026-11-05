@@ -1,0 +1,71 @@
+{
+  "record_type": "session",
+  "schema_version": 1,
+  "session_id": "20261105-lattix-bootstrap",
+  "runtime": "Codex; GitHub connector write and local Python/Git compute",
+  "task": "bootstrap-governance",
+  "goal": "Adapt UD-Physics governance architecture to Lattix R&D",
+  "created_at": "2026-11-05T03:06:42.843424+00:00",
+  "base_revision": "966b49e460c11a320ffe5d2408ffa6fa36f6ed7a",
+  "source_dirty_at_boot": true,
+  "profile": {
+    "actor": "ud-tetra",
+    "role": "integrator",
+    "model": "unknown",
+    "identity_verification": "DECLARED_NOT_AUTHENTICATED"
+  },
+  "status": "handoff",
+  "claims": {
+    "bootstrap-governance": {
+      "ref": "refs/heads/claims/bootstrap-governance",
+      "sha": "529715bd621bcb4d3f4fb9a01f2bb8522d9d28c8",
+      "status": "held"
+    }
+  },
+  "checks": [
+    {
+      "name": "integrity",
+      "command": [
+        "python3",
+        "scripts/validate.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "name": "regression",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "name": "history",
+      "command": [
+        "python3",
+        "scripts/check_history.py",
+        "--base",
+        "966b49e460c11a320ffe5d2408ffa6fa36f6ed7a"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    }
+  ],
+  "finding": "34 tests, record integrity, and append-only history checks passed on published implementation commit 5ad002f67ee06b611c1298bfa7bf6a38b7eb4bb1. Product hardware and engine tests NOT_RUN.",
+  "next_action": "Integrate the checked PR, release the held claim, then reconcile historical Lattix source packages.",
+  "checkpoint_at": "2026-11-05T03:09:13.859381+00:00",
+  "checkpoint_source": {
+    "revision": "5ad002f67ee06b611c1298bfa7bf6a38b7eb4bb1",
+    "dirty": true
+  },
+  "artifact_manifests": [
+    "artifacts/20261105-lattix-bootstrap/framework-verification-v1/manifest.json"
+  ]
+}

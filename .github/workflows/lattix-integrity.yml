@@ -1,0 +1,36 @@
+name: Lattix integrity
+on:
+  push:
+    branches: [main, 'rd/**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: lattix-integrity-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  integrity:
+    name: Lattix integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, resolved 2026-10-22
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Validate records and captured artifacts
+        run: python3 scripts/validate.py
+      - name: Exercise capture and concurrent claims
+        run: python3 -m unittest discover -s tests -v
+      - name: Verify append-only evidence history
+        env:
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE: ${{ github.event.before }}
+        shell: bash
+        run: |
+          base="$PR_BASE"
+          if [ -z "$base" ]; then base="$PUSH_BASE"; fi
+          if [ -z "$base" ] || [[ "$base" =~ ^0+$ ]]; then
+            base="$(git rev-parse HEAD^)"
+          fi
+          python3 scripts/check_history.py --base "$base"

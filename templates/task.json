@@ -1,0 +1,13 @@
+{
+  "record_type": "task",
+  "schema_version": 1,
+  "task_id": "TASK",
+  "goal": "REPLACE",
+  "owned_paths": [
+    "REPLACE"
+  ],
+  "dependencies": [],
+  "status": "planned",
+  "acceptance_rule": "REPLACE",
+  "lane": null
+}

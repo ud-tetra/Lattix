@@ -1,0 +1,23 @@
+name: Discovery integrity
+on:
+  push:
+    branches: [main, 'discovery/**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: discovery-integrity-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  integrity:
+    name: Discovery integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, resolved 2026-10-22
+        with:
+          persist-credentials: false
+      - name: Validate records and captured artifacts
+        run: python3 scripts/validate.py
+      - name: Exercise capture and concurrent claims
+        run: python3 -m unittest discover -s tests -v

@@ -1,0 +1,20 @@
+{
+  "record_type": "candidate",
+  "schema_version": 1,
+  "candidate_id": "CANDIDATE",
+  "session_id": "SESSION",
+  "question": "REPLACE",
+  "status": "HYPOTHESIS",
+  "evidence": [
+    "HYPOTHESIS"
+  ],
+  "assumptions": [],
+  "physical_mapping": "OPEN",
+  "target_exposure": "NOT_RECORDED",
+  "fitted_choices": [],
+  "sources": [],
+  "baseline": "OPEN",
+  "result": "OPEN",
+  "next_discriminant": "OPEN",
+  "mathematical_receipts": []
+}

@@ -1,0 +1,105 @@
+{
+  "receipt_schema_version": 1,
+  "calculation_id": "REPLACE",
+  "session_id": "REPLACE",
+  "candidate_id": null,
+  "question": "REPLACE",
+  "evidence_labels": [
+    "HYPOTHESIS"
+  ],
+  "objects": [
+    {
+      "object_id": "REPLACE",
+      "symbol": "REPLACE",
+      "object_type": "REPLACE",
+      "definition": "REPLACE",
+      "domain": "REPLACE",
+      "codomain": null,
+      "coefficient_domain": "REPLACE",
+      "units": "REPLACE",
+      "basis_orientation": "REPLACE_OR_NA",
+      "metric_measure": "REPLACE_OR_NA",
+      "origin": "assumed",
+      "exact_expression": null,
+      "measured_value": null,
+      "uncertainty": null,
+      "source_refs": [],
+      "assumption_ids": [],
+      "dependency_ids": [],
+      "normalization": "REPLACE_OR_NA"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "REPLACE",
+      "url_or_repo_path": "REPLACE",
+      "version_or_commit": "REPLACE",
+      "section_or_object_id": "REPLACE",
+      "source_status": "REPLACE"
+    }
+  ],
+  "assumptions": [],
+  "technique_plan": [
+    {
+      "technique": "REPLACE",
+      "applicability": "REPLACE_WITH_APPLIED_OR_NA",
+      "purpose_or_na_reason": "REPLACE"
+    }
+  ],
+  "integer_fraction_receipt": {
+    "raw_count_expression": null,
+    "reduced_expression": null,
+    "factor_origins": [],
+    "factorization": null,
+    "divisibility_gcd_lcm": null
+  },
+  "clock_receipt": {
+    "clock_type": null,
+    "modulus": null,
+    "residue_convention": null,
+    "update_rule": null,
+    "initial_phase": null,
+    "coupling": null,
+    "period_claim": null,
+    "physical_unit_map": null
+  },
+  "dynamics_readout": {
+    "state_space": null,
+    "generator_or_update": null,
+    "initial_boundary_conditions": null,
+    "conservation_and_sources": null,
+    "projection_and_kernel": null,
+    "physical_mapping": null
+  },
+  "target_exposure": {
+    "status": "REPLACE",
+    "known_targets": [],
+    "fitted_parameters_or_formula_choices": [],
+    "search_domain_and_budget": null,
+    "selection_criterion": null,
+    "baseline": null
+  },
+  "calculation_steps": [],
+  "result": {
+    "exact_expression": null,
+    "approximation": null,
+    "units": null,
+    "precision_and_error": null,
+    "scope": "REPLACE",
+    "physical_interpretation": "HYPOTHESIS_OR_NONE"
+  },
+  "verification": [
+    {
+      "method": "REPLACE",
+      "command_or_proof_path": null,
+      "source_revision": null,
+      "actual_result": "NOT_RUN",
+      "review_relationship": "constructor"
+    }
+  ],
+  "counterexamples_and_failures": [],
+  "limitations": [],
+  "changed_dependencies": [],
+  "artifact_manifest_refs": [],
+  "next_discriminant": "REPLACE"
+}

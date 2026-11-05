@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "program": "Lattix Systems R&D",
+  "repository": "ud-tetra/Lattix",
+  "default_branch": "main",
+  "work_branch_prefix": "rd/",
+  "claim_branch_prefix": "claims/",
+  "claim_protocol_version": 2,
+  "artifact_schema_version": 2,
+  "roles": [
+    "maintainer",
+    "researcher",
+    "reviewer",
+    "integrator"
+  ],
+  "lanes": [
+    "C12A",
+    "C12B",
+    "C12C"
+  ],
+  "required_checks": [
+    "Lattix integrity"
+  ],
+  "server_enforcement": "ADMIN_ACTION_REQUIRED"
+}

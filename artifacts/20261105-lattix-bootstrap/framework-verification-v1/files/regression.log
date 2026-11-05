@@ -1,0 +1,39 @@
+test_distinct_roles_and_unknown_identity_rejected (test_governance.GovernanceTests.test_distinct_roles_and_unknown_identity_rejected) ... ok
+test_draft_protocol_cannot_support_run (test_governance.GovernanceTests.test_draft_protocol_cannot_support_run) ... ok
+test_frozen_protocol_requires_substantive_fields (test_governance.GovernanceTests.test_frozen_protocol_requires_substantive_fields) ... ok
+test_integration_receipt_requires_measured_transfers (test_governance.GovernanceTests.test_integration_receipt_requires_measured_transfers) ... ok
+test_invalid_session_profile_rejected (test_governance.GovernanceTests.test_invalid_session_profile_rejected) ... ok
+test_missing_hardware_metadata_or_bad_source_sha_rejected (test_governance.GovernanceTests.test_missing_hardware_metadata_or_bad_source_sha_rejected) ... ok
+test_nonfinite_metrics_and_escape_rejected (test_governance.GovernanceTests.test_nonfinite_metrics_and_escape_rejected) ... ok
+test_not_run_cannot_report_measured_metrics (test_governance.GovernanceTests.test_not_run_cannot_report_measured_metrics) ... ok
+test_profile_persisted_and_local_profile_resolves (test_governance.GovernanceTests.test_profile_persisted_and_local_profile_resolves) ... ok
+test_protocol_tampering_and_lane_mismatch (test_governance.GovernanceTests.test_protocol_tampering_and_lane_mismatch) ... ok
+test_solver_pass_cannot_hide_failed_quality_gate (test_governance.GovernanceTests.test_solver_pass_cannot_hide_failed_quality_gate) ... ok
+test_valid_structural_receipt_is_not_empirical_certification (test_governance.GovernanceTests.test_valid_structural_receipt_is_not_empirical_certification) ... ok
+test_draft_protocol_can_be_frozen (test_history.HistoryTests.test_draft_protocol_can_be_frozen) ... ok
+test_frozen_protocol_cannot_be_unfrozen_or_deleted (test_history.HistoryTests.test_frozen_protocol_cannot_be_unfrozen_or_deleted) ... ok
+test_journal_and_updates_append_only (test_history.HistoryTests.test_journal_and_updates_append_only) ... ok
+test_new_run_allowed (test_history.HistoryTests.test_new_run_allowed) ... ok
+test_normal_source_edits_allowed (test_history.HistoryTests.test_normal_source_edits_allowed) ... ok
+test_recaptured_digest_does_not_allow_rewriting_old_run (test_history.HistoryTests.test_recaptured_digest_does_not_allow_rewriting_old_run) ... ok
+test_candidate_reference_and_checkpoint (test_lattix.CaptureTests.test_candidate_reference_and_checkpoint) ... ok
+test_capture_and_tampering (test_lattix.CaptureTests.test_capture_and_tampering) ... ok
+test_captured_input_cannot_escape_and_extra_input_is_rejected (test_lattix.CaptureTests.test_captured_input_cannot_escape_and_extra_input_is_rejected) ... ok
+test_captured_markdown_is_opaque_payload (test_lattix.CaptureTests.test_captured_markdown_is_opaque_payload) ... ok
+test_input_metadata_and_legacy_ambiguity_rejected (test_lattix.CaptureTests.test_input_metadata_and_legacy_ambiguity_rejected) ... ok
+test_paths_cannot_escape (test_lattix.CaptureTests.test_paths_cannot_escape) ... ok
+test_run_is_immutable (test_lattix.CaptureTests.test_run_is_immutable) ... ok
+test_same_named_inputs_are_preserved_and_verified (test_lattix.CaptureTests.test_same_named_inputs_are_preserved_and_verified) ... ok
+test_session_resume_does_not_overwrite (test_lattix.CaptureTests.test_session_resume_does_not_overwrite) ... ok
+test_symlink_and_duplicate_inputs_rejected (test_lattix.CaptureTests.test_symlink_and_duplicate_inputs_rejected) ... ok
+test_unmanifested_output_rejected (test_lattix.CaptureTests.test_unmanifested_output_rejected) ... ok
+test_dependency_blocks_claim (test_lattix.CoordinationTests.test_dependency_blocks_claim) ... ok
+test_reacquisition_of_released_marker_has_one_winner (test_lattix.CoordinationTests.test_reacquisition_of_released_marker_has_one_winner) ... ok
+test_release_requires_owner_and_preserves_audit_history (test_lattix.CoordinationTests.test_release_requires_owner_and_preserves_audit_history) ... ok
+test_simultaneous_claim_has_one_winner (test_lattix.CoordinationTests.test_simultaneous_claim_has_one_winner) ... ok
+test_stale_release_cannot_delete_new_owner (test_lattix.CoordinationTests.test_stale_release_cannot_delete_new_owner) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 3.132s
+
+OK

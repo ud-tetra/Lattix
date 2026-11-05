@@ -1,0 +1,17 @@
+{
+  "record_type": "task",
+  "schema_version": 1,
+  "task_id": "c12b-quality-frontier",
+  "goal": "Reproduce particle reference quality gates",
+  "owned_paths": [
+    "experiments/c12b/",
+    "benchmarks/preregistrations/c12b/",
+    "benchmarks/receipts/c12b/"
+  ],
+  "dependencies": [
+    "source-reconciliation"
+  ],
+  "status": "planned",
+  "lane": "C12B",
+  "acceptance_rule": "Preserve matched sphere-contact workload and report quality separately from performance."
+}

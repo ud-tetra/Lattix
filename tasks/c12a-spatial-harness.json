@@ -1,0 +1,17 @@
+{
+  "record_type": "task",
+  "schema_version": 1,
+  "task_id": "c12a-spatial-harness",
+  "goal": "Build a pure spatial correctness and measurement harness",
+  "owned_paths": [
+    "experiments/c12a/",
+    "benchmarks/preregistrations/c12a/",
+    "benchmarks/receipts/c12a/"
+  ],
+  "dependencies": [
+    "source-reconciliation"
+  ],
+  "status": "planned",
+  "lane": "C12A",
+  "acceptance_rule": "Freeze exact addressing/query semantics, CPU oracle, adversarial cases and hardware measurement protocol; no solver-derived timings."
+}

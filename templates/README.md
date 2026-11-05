@@ -1,0 +1,1 @@
+Templates are starting points, not completed evidence. Replace placeholders and preserve schema versions. Session/task/candidate/run/source imports are checked by scripts/validate.py; benchmark receipts and preregistrations have additional structural checks. Mathematical receipts and prose review conclusions require human/scoped technical review.

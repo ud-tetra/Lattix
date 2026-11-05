@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "contributors": [
+    {
+      "id": "ud-tetra",
+      "github": "ud-tetra",
+      "roles": [
+        "maintainer",
+        "researcher",
+        "reviewer",
+        "integrator"
+      ]
+    }
+  ],
+  "note": "Public configuration only; not authentication or GitHub access grants."
+}
